@@ -1,0 +1,59 @@
+.frog {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+h1{
+    position: absolute;
+    top:0;
+    left: 50%;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background: url(../img/frog.svg)no-repeat center/contain;
+    color: #000;
+    position: relative;
+  }
+
+
+  .big{
+    width: 200px;
+    height: 200px;
+  }
+
+  .box.center{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+
+  }
+
+.box p{
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    margin-top: 100px;
+    text-align: center;
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color:lightgreen;
+    border-radius: 40px;
+    margin: 0 20px;
+   
+
+}
